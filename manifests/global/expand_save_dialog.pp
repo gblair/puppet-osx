@@ -4,6 +4,7 @@ class osx::global::expand_save_dialog {
     user   => $::boxen_user,
     key    => 'NSNavPanelExpandedStateForSaveMode',
     domain => 'NSGlobalDomain',
+    type   => 'bool',
     value  => true;
   }
 }

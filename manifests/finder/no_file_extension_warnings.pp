@@ -7,6 +7,7 @@ class osx::finder::no_file_extension_warnings {
     domain => 'com.apple.finder',
     key    => 'FXEnableExtensionChangeWarning',
     value  => false,
+    type   => 'bool',
     notify => Exec['killall Finder'];
   }
 }

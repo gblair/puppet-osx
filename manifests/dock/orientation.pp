@@ -9,6 +9,7 @@ class osx::dock::orientation (
     domain => 'com.apple.dock',
     key    => 'orientation',
     value  => "${position}",
+    type   => 'string',
     notify => Exec['killall Dock'];
   }
 }

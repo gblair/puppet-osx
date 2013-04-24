@@ -7,6 +7,7 @@ class osx::dock::clear_dock {
     domain => 'com.apple.dock',
     key    => 'checked-for-launchpad',
     value  => true,
+    type   => 'bool',
     notify => Exec['killall Dock'];
   }
 

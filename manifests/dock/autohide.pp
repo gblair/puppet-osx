@@ -7,6 +7,7 @@ class osx::dock::autohide {
     key    => 'autohide',
     domain => 'com.apple.dock',
     value  => true,
+    type   => 'bool',
     notify => Exec['killall Dock'];
   }
 }
