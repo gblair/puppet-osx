@@ -32,6 +32,8 @@ Just `include` any of these in your manifest.
 * `osx::dock::dim_hidden_apps` - dims icons of hidden apps
 * `osx::dock::hide_indicator_lights` - remove the indicator lights below running
   apps
+* `osx::dock::orientation` - sets the orientation (left|right|bottom)
+* `osx::dock::tilesize` - sets size of items in the Dock
 
 ### Finder Settings
 
@@ -42,6 +44,9 @@ Just `include` any of these in your manifest.
 * `osx::finder::show_all_on_desktop` - does all of the above
 * `osx::finder::empty_trash_securely` - enable Secure Empty Trash
 * `osx::finder::unhide_library` - unsets the hidden flag on ~/Library
+* `osx::finder::show_file_extensions` - display file extensions in the finder
+* `osx::finder::show_hidden_files` - show hidden files
+* `osx::finder::no_file_extension_warnings` - disable warnings when chaning file extensions
 
 ### Mail app settings
 
