@@ -43,6 +43,10 @@ Just `include` any of these in your manifest.
 * `osx::finder::empty_trash_securely` - enable Secure Empty Trash
 * `osx::finder::unhide_library` - unsets the hidden flag on ~/Library
 
+### Mail app settings
+
+* `osx::mail::no_copy_fullname_with_address` - only copy address@example.com from address fields
+
 ### Universal Access Settings
 
 * `osx::universal_access::ctrl_mod_zoom` - enables zoom by scrolling while
