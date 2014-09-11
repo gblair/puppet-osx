@@ -53,6 +53,10 @@ Just `include` any of these in your manifest.
 * `osx::finder::show_hidden_files`
 * `osx::finder::enable_quicklook_text_selection`
 
+### Mail Settings
+
+* `osx::mail::copy_only_address` - when using "Copy address" in Mail.app
+
 ### Universal Access Settings
 
 * `osx::universal_access::ctrl_mod_zoom` - enables zoom by scrolling while
